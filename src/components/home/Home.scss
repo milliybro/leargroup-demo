@@ -1,0 +1,49 @@
+#home {
+  background: url("../../assets/images/home-bg.jpg") no-repeat center;
+  background-size: cover;
+  .home-content {
+    padding-top: 162px;
+    padding-bottom: 154px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 37%;
+
+    h3 {
+      color: #2c2d2e;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* fontFootnote */
+      font-family: Montserrat;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 13px; /* 100% */
+    }
+    h1 {
+      color: #2c2d2e;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* H1 */
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px; /* 125% */
+    }
+    p {
+      color: #2c2d2e;
+      /* fontBody */
+      font-family: Montserrat;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 133.333% */
+    }
+    @media (max-width: 1000px) {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}

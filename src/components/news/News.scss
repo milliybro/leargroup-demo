@@ -1,0 +1,50 @@
+.news-container {
+  h1 {
+    color: #2c2d2e;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* H1 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    padding-bottom: 32px;
+  }
+  .group-item {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    gap: 30px;
+    overflow: hidden;
+    .group-card {
+      img {
+         width: 100%;
+      }
+      p {
+        color: var(--color-text-secondary, #919399);
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* fontFootnote */
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px; /* 100% */
+        padding-top: 24px;
+        padding-bottom: 8px;
+      }
+      h5 {
+        color: var(--text-color-text, #2c2d2e);
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H3 */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+      }
+    }
+  }
+}

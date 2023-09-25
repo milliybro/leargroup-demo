@@ -1,0 +1,119 @@
+.contact-card {
+  box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+  background: url("../../assets/images/contact.png") center no-repeat;
+  background-size: cover;
+  padding: 24px 20px 36px;
+  margin-bottom: 80px;
+  h2 {
+    color: #2c2d2e;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* H1 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    span {
+      color: #ef7c00;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* H1 */
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+  }
+  p {
+    color: #2c2d2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    padding-top: 16px;
+    padding-bottom: 36px;
+  }
+}
+.contact-info {
+  display: flex;
+  gap: 12px;
+  width: 40%;
+  .contact-name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .name-input {
+      width: 100%;
+      border-radius: 0px 4px 4px 0px;
+      border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+      background: var(--main-color-bg, #fff);
+      padding: 10px 12px;
+      color: var(--text-color-text-secondary, #919399);
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 133.333% */
+    }
+  }
+  @media (max-width: 1050px) {
+    width: 70%;
+  }
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+}
+
+textarea {
+  border-radius: 4px;
+  border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+  background: var(--main-color-bg, #fff);
+  padding: 10px 12px;
+  margin-top: 12px;
+  color: var(--text-color-text-secondary, #919399);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+  width: 40%;
+  @media (max-width: 1050px) {
+    width: 70%;
+  }
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}
+
+.contact-btn {
+   margin-top: 12px;
+   display: block;
+   padding: 10px 20px;
+  border-radius: 4px;
+  background: #ef7c00;
+  color: var(--text-color-text-contrast, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* fontControl */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+  border: none;
+  cursor: pointer;
+  &:hover{
+   color: #ef7c00;
+   background-color: #fff
+  }
+}

@@ -1,0 +1,52 @@
+.group-container {
+  h1 {
+    color: #2c2d2e;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* H1 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    padding-bottom: 32px;
+    span {
+      color: #ef7c00;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* H1 */
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+  }
+  .group-item{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   grid-gap: 30px;
+   @media (max-width: 1170px) {
+    justify-content: center;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+  }
+  @media (max-width: 900px) {
+    justify-content: center;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+  }
+  @media (max-width: 700px) {
+    justify-content: center;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
+  }
+  }
+}

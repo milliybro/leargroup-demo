@@ -1,0 +1,48 @@
+.group__card {
+  img {
+    border-radius: 50%;
+  }
+  h5 {
+    color: var(--color-text, #2c2d2e);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* H4 */
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+    padding-top: 12px;
+  }
+  p {
+    color: var(--color-text-secondary, #919399);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* fontFootnote */
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+    padding-bottom: 16px;
+    padding-top: 4px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h6 {
+    color: var(--color-text, #2c2d2e);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* fontFootnote */
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+    padding-bottom: 4px;
+  }
+}

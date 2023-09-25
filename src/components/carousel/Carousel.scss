@@ -1,0 +1,26 @@
+.slick-dots {
+  position: absolute;
+  bottom: 25px !important;
+  left: 50px !important;
+  width: 150px !important;
+}
+
+.slick-dots li button::before {
+  font-family: "slick";
+  font-size: 12px !important;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px !important;
+  height: 30px !important;
+  content: "•" !important;
+  text-align: center;
+  opacity: 0.25;
+  color: #ef7c00 !important;
+}
+
+Slider{
+   display: flex;
+   gap: 30px;
+}
