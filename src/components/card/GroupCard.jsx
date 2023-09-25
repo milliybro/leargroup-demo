@@ -11,9 +11,9 @@ export class GroupCard extends Component {
         <img src={image} alt="" />
         <h5>{fullname}</h5>
         <p>{description}</p>
-        <h6>
+        <div>
           {children}
-        </h6>
+        </div>
       </div>
     )
   }
