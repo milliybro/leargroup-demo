@@ -59,6 +59,7 @@ export class Footer extends Component {
               <ul className="menu-name">
                 <h3>Продукция</h3>
                 <li>
+                  
                   <a href="#dfs">Ламинатные тубы</a>
                 </li>
                 <li>
