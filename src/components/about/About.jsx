@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./About.scss";
 
 import about from "../../assets/images/about.png";
-import play from "../../assets/images/play.png";
 export class About extends Component {
   render() {
     return (
@@ -14,7 +13,6 @@ export class About extends Component {
           <div className="about-content">
             <div className="about-video">
               <img src={about} alt="" />
-              <img src={play} alt="" />
             </div>
             <div className="about-text">
               <p>
