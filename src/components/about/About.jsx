@@ -13,9 +13,8 @@ export class About extends Component {
           </h1>
           <div className="about-content">
             <div className="about-video">
-              <p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Hbi13dX902c?si=KIpFvHvylV3d3nPF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </p>
+              <img src={about} alt="" />
+              <img src={play} alt="" />
             </div>
             <div className="about-text">
               <p>

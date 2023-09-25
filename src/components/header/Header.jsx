@@ -8,10 +8,9 @@ import "./headerSite.scss";
 export class Header extends Component {
    state = {
       dark: false,
-      nav: false,
     };
   render() {
-   const { dark, nav } = this.state;
+   const { dark } = this.state;
    const themeChange = () => {
      document.body.classList.toggle("dark");
      this.setState({ dark: !dark });
